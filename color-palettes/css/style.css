@@ -30,3 +30,67 @@
     text-align: center;
     padding: 24px
 }
+
+#earthy {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#earthyc-1 {
+    background-color: #677dc5;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
+
+#earthyc-2 {
+    background-color: #d2a517;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
+
+#earthyc-3 {
+    background-color: #ffeeca;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
+#earthyc-4 {
+    background-color: #867555;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
+
+#reptile {
+    font-family: verdana;
+    text-align: center;
+}
+
+#reptilec-1 {
+    background-color: #99ce7d;
+    font-family: verdana;;
+    text-align: center;
+    padding: 24px
+}
+
+#reptilec-2 {
+    background-color: #64974b;
+    font-family: verdana;;
+    text-align: center;
+    padding: 24px
+}
+
+#reptilec-3 {
+    background-color: #e1f7d4;
+    font-family: verdana;
+    text-align: center;
+    padding: 24px
+}
+#reptilec-4 {
+    background-color: #0058aa;
+    font-family: verdana;
+    text-align: center;
+    padding: 24px
+}
