@@ -1,0 +1,43 @@
+div {
+    /* border: 30px solid pink; */
+    border: 30px ridge pink;
+    background-color:antiquewhite;
+    margin: 25px;
+    padding: 10px;
+}
+
+p {
+    border: 20px dotted bisque;
+    padding: 48px 60px;
+    margin: 25px;
+}
+
+/*
+     Below is shorthand margin using one value. Applied to all 4 sides. 
+*/
+/* margin: 24px; */
+
+/*
+    2 values splits it across vertical and horizontil axis. the first value 
+     is applied to the top and bottom. the second value is applied to the left 
+    and right sides.  
+ */
+/* margin: 50px 150px */
+
+/*
+    3 values splits is across top, left/right, and bottom.
+    first value top
+    second value left/right
+    third value bottom 
+*/
+/* margin: 25px 200px 50px; */
+
+/*
+    4 values splits is across all 4 sides
+    first value top
+    second value left
+    third value bottom
+    fourth value left 
+*/
+/* margin: 10px 50px 30px 5px; */
+/* PADDING WORKS THE SAME WAY */
