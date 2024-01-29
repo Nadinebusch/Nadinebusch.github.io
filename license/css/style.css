@@ -1,0 +1,89 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+h1 {
+    color: darkblue;
+    font-size: 40px;
+    margin:0px;
+}
+
+h4 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#license {
+    background-color: rgb(243, 144, 37);
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+}
+
+#left-side {
+    display: inline-block;
+}
+
+#id-and-expiration span {
+    color: red;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+}
+
+#address {
+    font-weight: bold;
+}
+
+#personal-info {
+    border: 1px solid blue;
+}
+
+#small-pic {
+    display: inline-block;
+    width: 80px;
+    opacity: 60%;
+}
+
+#small-pic img {
+    display: inline-block;
+    width: 80px;
+}
+
+#right-side img {
+    width: 200px;
+}
+
+#right-side {
+    display: inline-block;
+    text-align: center;
+}
+
+#data-fields {
+    display: inline-block
+}
+
+#data-fields span {
+    color: red;
+}
+
+#data-left {
+    display: inline-block;
+}
+
+#data-right {
+    display: inline-block;
+}
+
+#signature {
+    font-family: cursive;
+    text-align: center;
+}
+
