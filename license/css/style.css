@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 /*
     NOTE TO STUDENTS: 
 
@@ -6,9 +7,18 @@
 
     Good luck, and have fun!
 */
+#license {
+    background: linear-gradient(55deg, white, pink, purple);
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 8px 3px 6px black;
+}
+
 h1 {
     color: darkblue;
-    font-size: 40px;
+    font-size: 60px;
     margin:0px;
 }
 
@@ -17,73 +27,92 @@ h4 {
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-#license {
-    background-color: rgb(243, 144, 37);
-    width: 700px;
-    height: 400px;
-    padding: 20px;
-}
-
-#left-side {
-    display: inline-block;
+    font-size: 24px;
+    margin:0px;
 }
 
 #id-and-expiration span {
     color: red;
+    font-weight:bold;
 }
 
 #id-and-expiration div {
     display: inline-block;
+    color: navy;
+    margin: 8px;
 }
 
 #address {
     font-weight: bold;
-}
-
-#personal-info {
-    border: 1px solid blue;
+    font-size: 18px;
+    margin:9px;
 }
 
 #small-pic {
     display: inline-block;
     width: 80px;
-    opacity: 60%;
 }
 
 #small-pic img {
     display: inline-block;
     width: 80px;
+    opacity: 60%;
+}
+
+#left-side {
+    display: inline-block;
+    width: 65%;
 }
 
 #right-side img {
-    width: 200px;
+    width: 100%;
 }
 
 #right-side {
     display: inline-block;
     text-align: center;
+    width: 34%;
 }
 
 #data-fields {
-    display: inline-block
+    display: inline-block;
 }
 
 #data-fields span {
     color: red;
+    font-weight: bold;
 }
 
 #data-left {
     display: inline-block;
+    color: navy;
 }
 
 #data-right {
     display: inline-block;
+    color: navy;
 }
 
 #signature {
-    font-family: cursive;
+    font-family: 'Ms Madi';
     text-align: center;
+    font-size: 24px;
 }
 
+#donor-and-real-id div {
+    display:inline-block;
+}
+
+#donor {
+    color:red;
+}
+
+#content {
+    vertical-align: top;
+}
+
+#real-id {
+    background-color: skyblue;
+    border-radius: 24px;
+    color: white;
+}
