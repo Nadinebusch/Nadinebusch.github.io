@@ -1,0 +1,28 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.light-container {
+    background-color: antiquewhite;
+    padding: 48px 0px;
+}
+
+.dark-container {
+    background-color: rgb(148, 93, 103);
+    color: antiquewhite;
+    padding: 48px 0px;
+}
