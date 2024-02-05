@@ -26,7 +26,7 @@ body {
 
 #header #tube {
     color: white;
-    background-color: rgb(162, 193, 204);
+    background-color: rgb(111, 143, 155);
     padding: 4px;
     border-radius: 12px;
 }
@@ -53,13 +53,12 @@ body {
 }
 
 #header {
-    background-color: antiquewhite;
+    background-color: rgb(215, 226, 245);
     grid-area: header;
     padding: 0px 36px;
 }
 
 #sidebar {
-    /* background-color: rgb(135, 152, 180); */
     grid-area: sidebar;
 }
 
@@ -78,7 +77,6 @@ body {
 
 .metube-item .thumbnail {
     border-radius: 8px; 
-    background: radial-gradient(at top left, lightblue, rgb(176, 176, 203));
     aspect-ratio: 16 / 9;
 }
 
@@ -90,6 +88,13 @@ body {
     text-decoration: none;
     color: #111;
     display: block;
+    font-family: Verdana;
+}
+
+.metube-item h4 a span {
+    color: #111;
+    display: block;
+    font-family: 'Courier New';
 }
 
 .metube-item h4 a:hover {
@@ -103,4 +108,10 @@ body {
 
 .metube-item .channel {
     margin-bottom: 4px;
+}
+
+#images {
+    border-radius: 12px;
+    width: 350px;
+    height: 200px;
 }
