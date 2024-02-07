@@ -5,6 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MeBay Product Page</title>
         <link rel="stylesheet" href="css/style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
     </head>
     <body>
         <div id="grid-layout">
@@ -15,9 +22,13 @@
                     </a>
                 </h1>
             </div>
-
+            
             <div id="column-1">
-                <img id="image" src="images/bag-1.png" >
+                <img 
+                    id="image" 
+                    src="images/bag-1.png" 
+                    alt="Brown purse"
+                >
             </div>
             <div id="column-2">
                 <h1 id="title">Juicy Couture Bag Brown</h1>
@@ -29,7 +40,12 @@
                     <li id="li-1"><a href="#">Buy now</a></li>
                     <li id="li-2"><a href="#">Add to cart</a></li>
                     <li id="li-3"><a href="#">Make an offer</a></li>
-                    <li id="li-4"><a href="#">Add to watchlist</a></li>
+                    <li id="li-4">
+                        <a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                            Add to watchlist
+                        </a>
+                    </li>
                 </ul>
                 <p>Shipping: <span>US $8.58 Standard Shipping.</span></p>
                  
@@ -47,14 +63,23 @@
             </div>
 
             <div id="column-3">
-                <h3>seller information</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Dolore architecto explicabo reprehenderit vel saepe, 
-                    illum vitae dicta tempora aperiam repellendus sed 
-                    aspernatur corrupti consequatur culpa ratione dolor
-                    tempore quas ipsa.
-                </p>
+                <h2>Seller Information</h2>
+                  
+                <ul>
+                    <img src="images/profile-img.png">
+                    <li>
+                        <a href="#">great-finds-for-you</a>
+                    </li>
+                    <li>
+                        <a href="#">99.2% positive reviews</a>
+                    </li>
+                    <li>
+                        <a href="#">Seller's other items</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact seller</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </body>

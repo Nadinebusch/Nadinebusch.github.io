@@ -9,18 +9,44 @@ body {
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 400px 1fr;
     grid-template-areas: 
         "header header header"
         "image main info"
     ;
 }
 
+#column-2 ul i {
+    color: #84c1c2;
+    margin-right: 10px;
+}
+
 #header {
     grid-area: header;
+    background-color: rgb(246, 235, 220);
     border-bottom: 2px solid rgba(128, 128, 128, 0.344);
     text-align: center;
     padding: 0px 36px;
+}
+
+#m {
+    color: #e391ab;
+}
+
+#e {
+    color: #A3697D;;
+}
+
+#b {
+    color: #564148;;
+}
+
+#a {
+    color: #005B5C;
+}
+
+#y {
+    color: #5a999a;
 }
 
 #header a {
@@ -29,19 +55,19 @@ body {
 
 #column-1 {
     grid-area: image;
+    margin-left: 200px;
+    margin-top: 10px
 }
 
 #column-1 #image {
-    width: auto;
-    margin: 0px;
-    padding: 10px;
+    width: 700px;
+    border: 7px solid #a3697dd3;
 }
 
 #column-2 {
     grid-area: main;
-    text-align: left;
+    margin-left: 30px;
     padding: 10px;
-    margin: 0px;
 }
 
 #column-2 h3 {
@@ -52,10 +78,9 @@ body {
     font-weight: bold;
 }
 
-#column-2 #buttons a:hover {
-    background-color: rgba(162, 193, 204, 0.391);
+#column-2 ul a:hover {
+    background-color: #a68591;
     border-radius: 12px;
-    opacity: 100%;
 }
 
 #column-2 #buttons a {
@@ -63,28 +88,32 @@ body {
     color: white;
     display: block;
     text-align: center;
-    width: auto;
+    width: 250px;
     padding: 12px;
     margin: 24px;
 }
 
+#li-1, #li-2, #li-3, #li-4 {
+    list-style-type: none;
+}
+
 #li-1 {
-    background-color: rgb(50, 78, 187);
+    background-color: #e391ab;
     border-radius: 12px;
 }
 
 #li-2 {
-    background-color: rgb(118, 175, 203);
+    background-color: #A3697D;
     border-radius: 12px;
 }
 
 #li-3 {
-    background-color: rgb(50, 78, 187);
+    background-color: #564148;
     border-radius: 12px;
 }
 
 #li-4 {
-    background-color: rgb(140, 104, 148);
+    background-color: #005B5C;
     border-radius: 12px;
 }
 
@@ -98,7 +127,42 @@ body {
 
 #column-3 {
     grid-area: info;
+    width: 450px;
     padding: 10px;
+    margin-left: 100px;
+}
+
+#column-3 h2 {
+    text-align: center;
+    background-color:#a3697dd3;
+    color: rgb(0, 0, 0);
+    grid-area: sidebar;
+    padding: 12px;
     margin: 0px;
-    background-color: rgba(173, 205, 194, 0.372);
+    
+}
+
+#column-3 a {
+    color: black;
+}
+
+#column-3 ul {
+    border: 1px solid #a3697dd3;
+    padding: 0px 12px;; 
+    margin: 0px 0px 36px; 
+    list-style-type: none;
+}
+
+#column-3 ul img {
+    width: 50px;
+    margin-left: 30px;
+}
+
+#column-3 li {
+    border-bottom: 1px solid #a3697dd3;
+    padding: 8px 0px;
+}
+
+#column-3 li:last-child {
+    border-bottom: 0px;
 }
