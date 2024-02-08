@@ -1,0 +1,32 @@
+.card-style-1 {
+    background-color: rgb(235, 252, 235);
+    max-width: 350px;
+    margin: 0px 10px 10px 0px;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card-style-1 p {
+    padding: 10px;
+    color: rgb(96, 93, 93);
+}
+
+.card-style-1 img {
+    width: 100%;
+}
+
+.card-style-1 a {
+    color: rgb(209, 244, 212);
+    text-decoration: none;
+    font-size: 20px;
+    background-color: green;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 0px;
+}
