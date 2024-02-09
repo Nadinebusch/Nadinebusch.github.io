@@ -3,14 +3,14 @@
     border-radius: 40px;
     text-align: center;
     max-width: 350px;
-    min-height: 50vh;
     padding: 20px;
-    margin: 0px 10px 10px 0px;
+    margin: 18px;
 }
 
 .card-style-2 img {
     width: 60%;
     border-radius: 50%;
+    margin: 20px;
 }
 
 .animagram-footer {
@@ -24,11 +24,16 @@
     justify-content: space-between;
 }
 
-/* .animagram-header .brand-name span {
+.card-style-2 .animagram-header .brand-name {
     font-size: 30px;
     font-weight: bold;
-} */
+    padding-top: 10px;
+}
 
 .card-style-2 p {
-    padding: 30px;
+    padding: 0px 25px 45px;
+}
+
+h2 {
+    margin: 0px;
 }
