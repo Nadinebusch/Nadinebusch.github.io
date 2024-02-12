@@ -1,5 +1,5 @@
 .card-style-3 img{
-    width: 300px;
+    width: 290px;
     border: 6px solid goldenrod;
 }
 
@@ -11,6 +11,18 @@
     padding: 20px;
     background:
         radial-gradient(at top left, rgb(181, 216, 181), green, rgb(181, 216, 181))
+    ;
+}
+
+#pokemon-card-3 {
+    background:
+        radial-gradient(at top left, rgb(255, 204, 0),rgb(255, 98, 0), rgb(255, 204, 0))
+    ;
+}
+
+#pokemon-card-4 {
+    background:
+        radial-gradient(at top left, rgb(115, 251, 251),rgb(118, 160, 207), rgb(115, 251, 251))
     ;
 }
 
@@ -29,7 +41,7 @@
     text-align: center;
 }
 
-.description .bold{
+.description .bold {
     font-weight: bold;
     font-size: 20px;
 }
@@ -39,6 +51,8 @@
 }
 
 .attack {
+    padding: 10px;
+    border-bottom: 2px solid;
     display: flex;
     align-items: center;
 }
@@ -46,4 +60,19 @@
 .power {
     font-weight: bold;
     font-size: 24px;
+}
+
+#pokemon-card-2 .data {
+    margin-top: 55px;
+}
+
+#pokemon-card-2 .description {
+    margin: 10px;
+}
+
+.data {
+    border: 2px solid goldenrod;
+    font-size: 12px;
+    margin: 3px;
+    padding: 3px;
 }
