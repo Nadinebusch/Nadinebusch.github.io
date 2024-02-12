@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box
+}
+    
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/sunset.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+    
+#hero-1 h2 {
+    font-size: 7vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+    
+#hero-1 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+    
+#hero-1 a {
+    border-radius: 20px;
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #a02512;
+    color: rgb(248, 247, 245);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-1 a:hover {
+    background-color: rgb(199, 234, 233);
+    color: black;
+}
+
+#hero-2 {
+    background-image: url("../images/pool.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+#hero-2 .content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 20vh;
+}
+    
+    
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+    
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+    
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #a02512;
+    color: #fffefe;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-2 a:hover {
+    background-color: rgb(199, 234, 233);
+    color: black;
+}
+
+#hero-3 {
+    background-image: url("../images/hotel.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+    
+    
+#hero-3 .content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+    
+#hero-3 h2 {
+    color: black;
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+    
+#hero-3 h4 {
+    color: black;
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+    
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #a02512;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 a:hover {
+    background-color: rgb(199, 234, 233);
+    color: black;
+}
