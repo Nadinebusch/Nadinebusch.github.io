@@ -32,14 +32,14 @@ body {
 
 .grid-gallery {
     display: grid;
-    gap: 10px;
-    background-color: #518095;
+    background-color: #7da2b4;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 200px;
-    border: 10px solid #518095;
+    border: 10px solid #2a4653;
 }
     
 .grid-gallery img {
+    padding: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
