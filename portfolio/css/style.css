@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,25 +7,30 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #e5bebe;
 }
 
 .btn {
     text-decoration: none;
     border: 2px solid #ffffff;
+    background-color: #e5bebe;
     border-radius: 5px;
     color: #ffffff;
     padding: 10px 25px;
     font-weight: 600;
+    transition: all 0.5s;
 }
 
 .btn:hover {
-    background-color: white;
-    color: black;
+    background-color: rgba(255, 255, 255, 0.512);
+    color: rgb(0, 0, 0);
 }
 
 #header {
     height: 100vh;
-    background-image: url("../images/hero-1.jpg");
+    background: 
+        linear-gradient(to bottom, #fff0, #e5bebe),
+        url("../images/hero-1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -51,13 +58,50 @@ body {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.5s;
 }
 
 .nav div a:hover {
     text-decoration: underline;
-    color: #C2CCA7;
+    color: #e5bebe;
 }
 
-/* color: #e77653;
-background-color: antiquewhite; */
+.hero-content {
+    max-width: 400px;
+    margin: 20% auto 0px;
+    text-align: center;
+}
 
+.hero-content p {
+    margin: 10px 0px 20px;
+    font-family: "Poiret One", sans-serif;
+    font-size: 30px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-family: "Poiret One", sans-serif;
+}
+
+.hero-content h1 span {
+    color: #e5bebe;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 5px auto;
+    text-align: center;
+}
+  
+.gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+    margin-top: 1100px;
+    padding: 10px;
+    border: 10px solid #886d6d;
+}
+    
+.gallery img {
+    width: 100%;
+    margin-bottom: 14px;
+} 
