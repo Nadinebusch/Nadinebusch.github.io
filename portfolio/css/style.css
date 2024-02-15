@@ -26,10 +26,26 @@ body {
     color: rgb(0, 0, 0);
 }
 
+#view {
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    background-color: #3c575b;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+#view:hover {
+    background-color: rgba(255, 255, 255, 0.512);
+    color: rgb(0, 0, 0);
+}
+
 #header {
     height: 100vh;
     background: 
-        linear-gradient(to bottom, #fff0, #e5bebe),
+        linear-gradient(to bottom, #fff0, #e5bebe), 
         url("../images/hero-1.jpg");
     background-position: center;
     background-size: cover;
@@ -37,7 +53,7 @@ body {
 
 .container {
     height: 100%;
-    width: 90vw;
+    width: 100vw;
     max-width: 1200px;
     margin: 0px auto;
 }
@@ -73,7 +89,7 @@ body {
 }
 
 .hero-content p {
-    margin: 10px 0px 20px;
+    margin: 10px 0px 40px;
     font-family: "Poiret One", sans-serif;
     font-size: 30px;
 }
@@ -87,21 +103,139 @@ body {
     color: #e5bebe;
 }
 
-#layout {
-    max-width: 1200px;
-    margin: 5px auto;
-    text-align: center;
-}
-  
 .gallery {
-    columns: 3 auto;
-    column-gap: 24px;
-    margin-top: 1100px;
-    padding: 10px;
-    border: 10px solid #886d6d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poiret One", sans-serif;
 }
-    
-.gallery img {
+
+h2 {
+    font-size: 3rem;
+}
+
+.gallery p {
+    margin: 10px 0px 15px;
+}
+
+#g .grid {
+    display: grid;
+    background-color: rgba(250, 235, 215, 0.703);
+    border: 10px solid rgb(87, 56, 56);
+    padding: 10px;
+    grid-template-columns: 4fr 8fr 4.5fr;
+    grid-template-rows: 350px 250px 350px;
+    grid-template-areas: 
+        "p1 p4 p2"
+        "p6 p3 p5"
+        "p8 p7 p9" 
+    ;
+    gap:25px;
+    height: 100%;
+}
+
+.grid img {
     width: 100%;
-    margin-bottom: 14px;
+    height: 100%;
 } 
+
+#p1 {
+    grid-area: p1;
+}
+#p2 {
+    grid-area: p2;
+}
+#p3 {
+    grid-area: p6;
+}
+#p4 {
+    grid-area: p4;
+}
+#p5 {
+    grid-area: p5;
+}
+#p6 {
+    grid-area: p3;
+}
+#p7 {
+    grid-area: p7;
+}
+#p8 {
+    grid-area: p8;
+}
+#p9 {
+    grid-area: p9;
+}
+
+#g2 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 55px;
+    padding-top: 70px;
+}
+
+.card {
+    flex: 1;
+    color: rgb(235, 185, 185);
+    height: 500px;
+    max-width: 50%;
+    border-radius: 10px;
+    margin: 20px;
+    gap: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card div {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 15px;
+    transition: background-color 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    background-color: #e5bebe;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.card h3:hover {
+    background-color: rgba(255, 255, 255, 0.512);
+    color: rgb(0, 0, 0);
+}
+
+.card:hover div {
+    background: none;
+    backdrop-filter: blur(5px);
+    transition: 1s;
+}
+
+#card-1 {
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+}
+
+#card-2 {
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    font-size: 5rem;
+}
