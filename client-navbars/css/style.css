@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0px;
+}
+    
+#nav {
+    background: linear-gradient(to bottom, #819881, #d1e2e0);
+    background-color: #e0ceba;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+}
+    
+#nav a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#nav #name {
+    margin-right: auto;
+    color: #66443b;
+    font-size: 25px;
+}
+
+#nav a {
+    color: #66443b;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #FFA8E2, #F5EDAE);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Dosis", sans-serif;
+}
+    
+#navbar a {
+    text-decoration: none;
+    color: #026c7f;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+#navbar #name-2 {
+    margin-right: auto;
+    font-size: 25px;
+}
+    
+#navbar .button {
+    background-color: white;
+    color: #653e58;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-3 {
+    background: linear-gradient(to bottom, rgb(0, 102, 128), #3e506d);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+       
+#navbar-3 #name-3 {
+    margin-right: auto;
+}
+    
+#navbar-3 .button-2 {
+    background-color: white;
+    color: rgb(0, 96, 128);
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+    
+#navbar-top {
+    background: linear-gradient(to bottom, rgb(50, 153, 205), rgb(0, 87, 128));
+    display: flex;
+    justify-content: space-between;
+}
+    
+#navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, rgb(50, 153, 205), rgb(0, 87, 128));
+    display: flex;
+    justify-content: space-between;
+}
+    
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
