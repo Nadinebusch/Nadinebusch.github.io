@@ -19,6 +19,7 @@ h1 {
     
 .card {
     flex: 300px;
+    font-weight: bold;
     border: 3px solid black;
     margin: 24px;
     padding: 24px;
@@ -36,7 +37,7 @@ h1 {
 }
     
 #card1:hover {
-    background-color: #4184cc;
+    background-color: #7eb1e7;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
@@ -51,7 +52,7 @@ h1 {
     transform: translateY(-4px);
 }
 #card1-4:hover {
-    background-color: lightcyan;
+    background-color: #737ba5;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
@@ -64,40 +65,27 @@ h1 {
     ;
 }
 
+#card2, #card2-2, #card2-3, #card-2-4 {
+    background-size: cover;
+    background-position: center center;
+}
+#card2  {
+    background-image:url(../images/spring-1.jpg);
+   
+}
+#card2-2  {
+    background-image:url(../images/spring-4.jpg);
+}
+#card2-3  {
+    background-image:url(../images/spring-3.jpg);
+}
+#card2-4  {
+    background-image:url(../images/spring-2.jpg);
+}
 
-
-#card2 .card-content {
+.card2-content {
     opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s
-    ;
-}
-#card2-2 .card-content {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s
-    ;
-}
-#card2-3 .card-content {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition: 
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s
-    ;
-}
-#card2-4 .card-content {
-    opacity: 0;
+    background-color: antiquewhite;
     visibility: hidden;
     transform: translateY(-8px);
     transition: 
@@ -107,36 +95,37 @@ h1 {
     ;
 }
     
-#card2:hover .card-content {
+#card2:hover .card2-content {
     opacity: 1;
-    color: #ffa5a1;
+    color: #c98682;
     visibility: visible;
     transform: translateY(0px);
 }
-#card2-2:hover .card-content {
+#card2-2:hover .card2-content {
     opacity: 1;
-    color: #d3e5cf;
+    color: #9aa997;
     visibility: visible;
     transform: translateY(0px);
 }
-#card2-3:hover .card-content {
+#card2-3:hover .card2-content {
     opacity: 1;
+    color: goldenrod;
     visibility: visible;
     transform: translateY(0px);
 }
-#card2-4:hover .card-content {
+#card2-4:hover .card2-content {
     opacity: 1;
+    color: rgb(169, 117, 169);
     visibility: visible;
     transform: translateY(0px);
 }
 
-#card3 {
+#card3, #card3-2, #card3-3, #card3-4 {
     position: relative;
 }
     
-#card3 .card-content {
+.card3-content {
     position: absolute;
-    background-color: rgb(209, 159, 159);
     border: 3px solid black;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #00000033;
@@ -152,9 +141,36 @@ h1 {
         transform 0.5s
     ;
 }
-    
-#card3:hover .card-content {
+
+#card3:hover .card3-content {
     opacity: 1;
+    color: transparent;
+    background-image:url(../images/summer-4.jpg);
     visibility: visible;
     transform: translateY(0px);
+}
+#card3-2:hover .card3-content {
+    opacity: 1;
+    color: transparent;
+    background-image:url(../images/summer-3.jpg);
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card3-3:hover .card3-content {
+    opacity: 1;
+    color: transparent;
+    background-image:url(../images/summer-1.jpg);
+    visibility: visible;
+    transform: translateY(0px);
+}
+#card3-4:hover .card3-content {
+    opacity: 1;
+    color: transparent;
+    background-image:url(../images/summer-2.jpg);
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+.card3-content p {
+    color: transparent;
 }
