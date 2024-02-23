@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+* {
+    box-sizing: border-box;}
+    
+body {
+    margin: 0px;
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+    background-color: #64715d;
+}
+    
+#navbar {
+    background-color: #fae3b9c9;
+    border-bottom: 5px solid #cbd7bf;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+    
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: #64715d;
+    padding: 24px;
+}
+    
+#navbar a:hover {
+    background-color: rgb(221, 185, 138)
+}
+    
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 34px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+    
+.dropdown-container {
+    position: relative;
+}
+    
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s,visibility 0.25s;
+    border: 5px solid #cbd7bf;
+    border-top: none;
+}
+    
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+    
+.dropdown-menu a {
+    background-color: #fae3b9;
+    width: 100%;
+    min-width: 200px;
+}
+    
+#navbar .dropdown-menu a:hover {
+    background: rgb(221, 185, 138)
+}
+
+#hero {
+    background-image: url("../images/adoptme-hero.jpg");
+    Border-bottom: 5px solid #cbd7bf;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+    
+    
+#hero .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+   
+.hero-content {
+    text-align: center;
+    background-color: rgb(221, 185, 138);
+    padding: 50px;
+    margin: 40px;
+    border-radius: 80px;
+}
+
+#hero h2 {
+    color: #454e41;
+    font-size: 3vw;
+}
+    
+#hero h4 {
+    color: #454e41;
+    font-size: 2vw;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    border: 5px solid #cbd7bf;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+#peanut {
+    background-image: url(../images/peanut.jpg);
+    background-size: cover;
+}
+#scooter {
+    background-image: url(../images/scooter.jpg);
+    background-size: cover;
+}
+#olive {
+    background-image: url(../images/olive.jpg);
+    background-size: cover;
+}
+
+.card h2 {
+    color: #2a3028;
+    background-color: rgb(240, 203, 154);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 12px;
+}
+    
+.card p {
+    color: transparent;
+    font-size: 18px;
+    flex: 1;
+}
+
+.card a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(221, 185, 138);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgb(145, 122, 91);
+    transition:
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.card a:hover {
+    background-color: rgba(240, 248, 233, 0.83);
+    color: #454e41;
+}
