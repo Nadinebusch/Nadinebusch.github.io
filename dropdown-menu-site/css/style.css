@@ -10,7 +10,7 @@ body {
 }
     
 #navbar {
-    background-color: #fae3b9c9;
+    background-color: #fae3b9;
     border-bottom: 5px solid #cbd7bf;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@ body {
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: #64715d;
+    color: #2a3028;
     padding: 24px;
 }
     
@@ -83,19 +83,19 @@ body {
    
 .hero-content {
     text-align: center;
-    background-color: rgb(221, 185, 138);
+    background-color: #fae3b9;
     padding: 50px;
     margin: 40px;
     border-radius: 80px;
 }
 
 #hero h2 {
-    color: #454e41;
+    color: #2a3028;
     font-size: 3vw;
 }
     
 #hero h4 {
-    color: #454e41;
+    color: #2a3028;
     font-size: 2vw;
 }
 
@@ -112,7 +112,7 @@ body {
 .card {
     width: 350px;
     height: 450px;
-    border: 5px solid #cbd7bf;
+    border: 7px solid #cbd7bf;
     border-radius: 30px;
     padding: 10px;
     display: flex;
@@ -132,13 +132,21 @@ body {
     background-size: cover;
 }
 
+#spotlight {
+    text-align: center;
+    font-size: 40px;
+    color: #fae3b9;
+    padding-bottom : 10px;
+}
+
 .card h2 {
     color: #2a3028;
     background-color: rgb(240, 203, 154);
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     font-size: 36px;
     margin-top: 12px;
+    border: 2px solid rgb(145, 122, 91);
 }
     
 .card p {
@@ -148,7 +156,7 @@ body {
 }
 
 .card a {
-    color: rgb(255, 253, 253);
+    color: #2a3028;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -158,13 +166,38 @@ body {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    border: 2px solid rgb(145, 122, 91);
+    border: 3px solid rgb(145, 122, 91);
     transition:
         background-color 0.5s,
         color 0.5s;
 }
 
 .card a:hover {
-    background-color: rgba(240, 248, 233, 0.83);
-    color: #454e41;
+    background-color: #75846dc6;
+    color: #fae3b9;
+}
+
+/* pet pages -> */
+
+.column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #cbd7bf;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.column h1 {
+    font-size: 50px;
+}
+
+img {
+    width: 70%;
+    border-radius: 10px;
 }
