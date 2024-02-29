@@ -32,7 +32,7 @@ body {
 }
 
 #navbar #logo {
-    margin-right: auto;
+    margin-right:auto;
 }
 
 .dropdown-container {
@@ -42,6 +42,7 @@ body {
 #links {
     position: relative;
     display: flex;
+    margin-left: auto;
 }
     
 .dropdown-menu {
@@ -49,8 +50,6 @@ body {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.25s, visibility 0.25s;
-    border: 5px solid #2d2743;
-    border-top: none;
 }
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
@@ -58,13 +57,13 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: #f5b439;
+    background-color: #867fa2;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: #ba882b;
+    background: #67627c;
 }
 
 #hero {
@@ -223,7 +222,7 @@ body {
     flex: 1;
 }
     
-.side-by-side .text-container {
+.side-by-side .text {
     flex: 1;
     padding: 36px;
 }
@@ -231,20 +230,47 @@ body {
     
 .side-by-side .image-container img {
     width: 100%;
+    border-radius: 20px;
 }
     
-.side-by-side .text-container h3 {
+.side-by-side .text h3 {
     font-size: 48px;
 }
     
     
-.side-by-side .text-container a {
-    font-size: 28px;
+.side-by-side .text a {
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: #3f0791;
-    color: white;
+    background-color: #f5b439;
+    color: rgb(0, 0, 0);
     padding: 24px 48px;
     border-radius: 48px;
+}
+   
+.comparisons-container {
+    text-align: center;
+    margin: 60px 0px;
+}
+    
+.comparisons-container h3 {
+    font-size: 36px;
+    color: #2d373a;
+}
+
+.comparison-row {
+    display: flex;
+    border-bottom: 3px solid #2d373a;
+    color: #2d373a;
+}
+    
+.comparison-row.comparison-header {
+    font-weight: bold;
+}
+    
+.comparison-row div {
+    flex: 1;
+    padding: 24px;
+    font-size: 24px;
 }

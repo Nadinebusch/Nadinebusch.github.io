@@ -3,14 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Menu</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 
         <div id="navbar">
-            <img id="logo" src="images/logo.png">
-            
+            <a href="index.html">
+                <img id="logo" src="images/logo.png">
+            </a>
+
             <div id="links">
                 <div class="dropdown-container"> 
                     <a href="#">
@@ -37,18 +40,75 @@
                     <div class="image-container">
                         <img src="images/pasta.jpg" alt="pasta">
                     </div>
-                    <div class="text-container">
+                    <div class="text">
                         <h3>Shrimp pasta with steak</h3>
                         <h4>
                             A spaghetti pasta with a garlic sauce toped with 
                             grilled shrimp and steak strips.
                         </h4>
 
-                        <a href="#">$15.99</a>
+                        <a href="#">View More</a>
                     </div>
+                </div>
+
+                <div class="comparisons-container">
+                        <h3>Other guest favorites!</h3>
+                
+                        <div class="comparison-row">
+                            <div>Crispy Chicken (choice of side)</div>
+                            <div>$10.99</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>Mighty Burger</div>
+                            <div>$15.50</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>Beef Taco</div>
+                            <div>$10.20</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>Cheese Pizza</div>
+                            <div>$20  (price varies on size)</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>House Salad</div>
+                            <div>$10.99  (price varies on size)</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>Spaghetti with Meat Sauce</div>
+                            <div>$16.50</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>Chicken Alfredo</div>
+                            <div>$16.50</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>Loaded Baked Potato</div>
+                            <div>$10.20</div>
+                        </div>
+                        <div class="comparison-row">
+                            <div>Cheese Quesadilla</div>
+                            <div> $12.99 (price varies on size)</div>
+                        </div>
                 </div>
 
             </div>
         </div>
+
+        <div id="footer">
+
+            <div id="footer-columns-navbar">
+                
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+                
+            </div>
+
+            <div id="footer-navbar">
+                <span>&copy; Mystic Bites</span>
+            </div>
+        </div>
+
     </body>
 </html>
