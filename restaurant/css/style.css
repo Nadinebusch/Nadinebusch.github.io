@@ -28,11 +28,15 @@ body {
     display: inline-block;
     text-decoration: none;
     color: #2d2743;
+    padding: 5px 44px;
+}
+
+#navbar .dropdown-menu a {
     padding: 44px;
 }
 
 #navbar #logo {
-    margin-right:auto;
+    margin-right: auto;
 }
 
 .dropdown-container {
@@ -66,6 +70,11 @@ body {
     background: #67627c;
 }
 
+#mc a:hover {
+    text-decoration: underline;
+    color: #16151a;
+}
+
 #hero {
     background-image: url("../images/hero-r.jpg");
     border-bottom: 2px solid #f5b439;
@@ -97,6 +106,13 @@ body {
     background-color: #2d2743;
     padding: 10px 20px;
     border-radius: 10px; 
+    transition: 1s;
+}
+
+.hero-content a:hover {
+    background-color: #f5b439;
+    color: black;
+    transition: 1s;
 }
 
 #hero h2 {
@@ -206,6 +222,11 @@ body {
     max-width: 1200px;
     margin: 0px auto;
 }
+
+.single-column h1 {
+    text-align: center;
+    font-size: 50px;
+}
     
 #main-section {
     padding: 48px;
@@ -226,7 +247,16 @@ body {
     flex: 1;
     padding: 36px;
 }
-    
+
+.side-by-side .text a {
+    transition: 1s;
+}
+
+.side-by-side .text a:hover {
+    background-color: black;
+    color: #f5b439;
+    transition: 1s;
+}
     
 .side-by-side .image-container img {
     width: 100%;
@@ -273,4 +303,66 @@ body {
     flex: 1;
     padding: 24px;
     font-size: 24px;
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 478px) {
+    #navbar {
+        flex-direction: column;
+    }
+    .single-column {
+        min-width: 400px;
+        max-width: 1200px;
+    }
+    .side-by-side {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .single-column h1 {
+        font-size: 30px;
+    }
+    .side-by-side .text a {
+        font-size: 15px;
+    }
+    .side-by-side .text h3 {
+        font-size: 35px;
+    }
+    .side-by-side .text h4 {
+        font-size: 20px;
+    }
+    .side-by-side .image-container img {
+        width: 65%;
+    }
+    .comparisons-container {
+        margin: 0px;
+    }
+    .comparisons-container h3 {
+        font-size: 25px;
+    }
+    .comparison-row div {
+        border-bottom: none;
+        width: 30%;
+        font-size: 14px;
+    }
+    #footer {
+        padding: 0px;
+    }   
+    #footer-navbar {
+        width: 400px;
+        padding: 5px;
+        margin: 5px;
+    }
+    #footer-columns-navbar {
+        width: 300px;
+        margin: 0px auto;
+        padding: 48px;
+    } 
+    #footer-columns-navbar div {
+        display: flex;
+        flex-direction: column;
+    }   
+    #footer-columns-navbar a {
+        padding: 8px 0px;
+    }
 }
