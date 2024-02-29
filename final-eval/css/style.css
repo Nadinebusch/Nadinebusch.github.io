@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;}
+    
+body {
+    margin: 0px;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #6f222e;
+}
+
+img {
+    width: 80%;
+    border: 20px ridge #975a7b;
+}
+
+#img2 {
+    border: 20px ridge #a44242;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(239, 219, 193);
+}
+    
+#main-section {
+    padding: 48px;
+    display: flex;
+}
+    
+    
+.content {
+    text-align: center;
+    margin: 0px;
+}
+  
+.vs {
+    margin: 250px 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    margin: 0px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.info h3 {
+    text-align: center;
+    color: #5D5289;
+}
+
+.content h3 {
+    font-size: 25px;
+    padding-top: 50px;
+}
+    
+.layout {
+    display: flex;
+    justify-content: center;
+    padding: 24px 48px;
+}
+
+#button a {
+    border-radius: 20px;
+    font-size: 2.5vw;
+    display: block;
+    background-color: #597a8e;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 24px;
+    margin: 40px;
+    transition: all 0.5s;
+}
+
+#button a:hover {
+    color: white;
+    background-color: #5D5289;
+}
+
+
+@media screen and (max-width: 868px) and (min-width: 460px) {
+    .layout {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .single-column {
+        min-width: 300px;
+        max-width: 900px;
+        background-color: rgb(239, 219, 193);
+    }
+        
+    #main-section {
+        padding: 10px;
+        display: flex;
+    }
+}
